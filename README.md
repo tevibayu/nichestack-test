@@ -58,7 +58,7 @@ composer install
 create DB "nichestack" in MySQL
 php artisan migrate
 composer dump-autoload
-php artisan db:seed --class=BookTableSeeder
+php artisan db:seed --class=BookSeeder
 
 ```
 
