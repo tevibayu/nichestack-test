@@ -12,7 +12,8 @@ yarn dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 ### ENV
-Default API_URL=http://localhost:8888/nichestack-test/backend/public/api/book-list
+Default `API_URL`=http://localhost:8888/nichestack-test/backend/public/api/book-list
+
 Please change to your localhost server (Laravel)
 
 ### Dependencies
@@ -60,7 +61,7 @@ php artisan db:seed --class=BookTableSeeder
 
 ```
 
-Open [http://localhost/nichestack-test/backend](http://localhost/nichestack-test/backend) with your browser to see the result.
+Open [http://localhost:8888/nichestack-test/backend/public](http://localhost:8888/nichestack-test/backend/public) with your browser to see the result.
 
 ### Folder Controller Function
 /app/Http/BookController.php
