@@ -53,6 +53,7 @@ lib folder contains custom utils, like filter, sort, etc.
 Second, run the development server for BackEnd App:
 
 ```bash
+open ./backend folder
 composer install
 create DB "nichestack" in MySQL
 php artisan migrate
